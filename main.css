@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(119, 43, 196);
+}
+#form {
+  background-color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 5px;
+}
+#header {
+  margin-bottom: 1rem;
+  color: rgb(155, 15, 155);
+}
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.inputSection i {
+  position: absolute;
+  top: 40%;
+  right: 2%;
+  transform: scale(0.8);
+}
+
+input {
+  height: 30px;
+  width: 220px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  border-radius: 3px;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 2px;
+  font-size: 0.8rem;
+  color: rgb(112, 111, 111);
+}
+.fa-exclamation-circle {
+  background-color: white;
+  color: red;
+}
+.fa-check-circle {
+  background-color: white;
+  color: green;
+}
+#submit {
+  margin-top: 1rem;
+  background-color: rgb(126, 46, 206);
+  color: white;
+  border-radius: 10px;
+  height: auto;
+  padding: 0.5rem 0;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+small {
+  color: red;
+  height: 15px;
+}
+.green {
+  border: 1px solid green;
+}
+.red {
+  border: 1px solid red;
+}
